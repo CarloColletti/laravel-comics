@@ -1,9 +1,31 @@
 @import "~bootstrap/scss/bootstrap";
 
 .jumbotron {
-    min-height: 100vh;
+    height: 80vh;
 }
 
-img {
-    max-height: 150px;
+header{
+    div{
+
+        ul{
+
+
+            li{
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+main{
+    background-color:black;
+
+    .max-height{
+        height: 100%;
+    }
+
+    h5{
+        color: white;
+    }
 }
