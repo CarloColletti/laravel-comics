@@ -1,31 +1,97 @@
 @import "~bootstrap/scss/bootstrap";
 
-.jumbotron {
-    height: 80vh;
+// *******************************general reset******************************* 
+
+ul li {
+  list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+// ***********************************header*********************************** 
 header{
-    div{
-
-        ul{
-
-
-            li{
-                text-decoration: none;
-            }
-        }
+  .bg-my-blue{
+    background-color: #0282f9;
+    .additional-links{
+      display: flex;
+      flex-direction: row-reverse;
+      a{
+        color: white;
+        padding: 1.2rem;
+      }
+  
     }
+  }
+
+  ul li a{
+    padding: 0 1.3rem;
+  }
 
 }
+  
+// *********************************jumbotron********************************* 
 
-main{
-    background-color:black;
+.jumbotron {
+  height: 70vh;
+}
 
-    .max-height{
-        height: 100%;
+
+// ************************************main************************************ 
+
+.main-home{
+  background-color: #1c1c1c;
+  color: white;
+  .current-series{
+    position: absolute;
+    background-color: #0282f9;
+    padding: 0.5rem 1.5rem;
+    
+    transform: translate(-0.7rem, -1.5rem);
+    
+    span{
+      font-weight: bolder;
+      font-size: 1.5rem;
     }
+  }
+  h5{
+    color: white;
+  }
+  
+  .max-height{
+    height: 100%;
+  }
 
-    h5{
-        color: white;
+  .load{
+    text-align: center;
+    padding-top: 1.2rem;
+    span{
+      background-color: #0282f9;
+      color: white;
+      padding: 0.3rem 2.5rem;
     }
+  }
+}
+
+.link-merch-back{
+  background-color: #0282f9;
+    
+  .link-merch {
+    color: white;
+    gap: 1.4rem;
+
+    .col-link {
+      width: calc(100% / 5);
+      align-items: center;
+      padding: 2.5rem 0;
+      
+      .img-link {
+        width: 20%;
+      }
+
+      .text-link {
+        padding-left: 20px;
+      }
+    }
+  }
 }

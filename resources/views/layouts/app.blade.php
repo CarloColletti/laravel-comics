@@ -12,12 +12,12 @@
 
 </head>
 <body>
-
+  {{-- header  --}}
   @include('partials._header')
 
 
   {{-- jumbotron --}}
-  @yield('jumbotron')
+  @include('partials._jumbotron')
 
   {{-- content  --}}
   @yield('main-content')
