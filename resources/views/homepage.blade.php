@@ -15,7 +15,9 @@
         <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-5">
           @foreach ($comics as $comic)
             <div class="col">
-              <a href="#">
+              <a href="{{ route('detail-product', [
+                'index' => $loop ->index, 
+              ]) }}">
                 <div class="max-height">
                   <div class="image-cover">
                     <img src="{{$comic['thumb'] }}" class="img-fluid" alt="">

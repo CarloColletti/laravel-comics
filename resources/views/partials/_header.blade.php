@@ -22,7 +22,9 @@
     <div class="d-flex py-4">
       {{-- logo  --}}
       <div>
-        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Loco">
+        <a href="{{ route('homepage') }}">
+          <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Loco">
+        </a>
       </div>
 
       {{-- links --}}

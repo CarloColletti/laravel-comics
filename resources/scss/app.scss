@@ -95,3 +95,20 @@ header{
     }
   }
 }
+
+
+.detail-comic{
+  
+  .back-blue{
+    background-color: #0282f9;
+    height: 6rem;
+    .comic-photo{
+      position: absolute;
+      transform: translate(00, -15.5rem);
+    }
+  }
+}
+
+.text-box-green{
+  background-color: #55ba59;
+}
